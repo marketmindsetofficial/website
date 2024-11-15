@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            margin: 0;
+            padding: 20px;
+            color: #f4f4f4;
+            overflow: hidden;
+            text-align: center; /* Center all text */
+        }
+        header {
+            padding: 20px;
+            background-color: #007BFF;
+            color: white;
+            box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+            animation: fadeIn 1s ease-in-out;
+        }
+        h1 {
+            font-size: 3em;
+            animation: neon 1.5s infinite alternate;
+            text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 15px #00ffcc;
+        }
+        .content {
+            max-width: 600px;
+            margin: auto;
+            background: #2b2b2b;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            animation: slideIn 1s ease-in-out;
+        }
+        h2 {
+            color: #00ffcc;
+            font-size: 2.5em;
+            animation: neon 1.5s infinite alternate;
+            text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 15px #00ffcc;
+        }
+        p {
+            line-height: 1.6;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .contact-info {
+            margin-top: 20px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            animation: fadeIn 2s ease-in-out;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        a {
+            color: #00ffcc;
+            text-decoration: none;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+        a:hover {
+            color: #ff00ff;
+            text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes neon {
+            0% { text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 15px #00ffcc; }
+            100% { text-shadow: 0 0 20px #00ffcc, 0 0 30px #00ffcc, 0 0 40px #00ffcc; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>About Me</h1>
+</header>
+
+<div class="content">
+    <h2>Welcome to My Blog!</h2>
+    <p>
+        As a dedicated stock market blogger, I explore the world of investing and trading, sharing insights and strategies to help readers navigate market dynamics. My goal is to simplify complex financial concepts and provide practical advice, empowering others to make confident investment decisions. Join me as we uncover opportunities and trends shaping the future of finance.
+    </p>
+
+    <div class="contact-info">
+        <h3 style="color: #00ffcc; text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 15px #00ffcc; animation: neon 1.5s infinite alternate;">Contact Info</h3>
+        <p style="color: #f4f4f4; font-size: 1.1em; text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc; animation: neon 1.5s infinite alternate;">
+            Email: <a href="mailto:your-email@example.com" style="color: #00ffcc; text-decoration: none;">your-email@example.com</a>
+        </p>
+        <p style="color: #f4f4f4; font-size: 1.1em; text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc; animation: neon 1.5s infinite alternate;">
+            Twitter: <a href="https://twitter.com/yourtwitterhandle" target="_blank" style="color: #00ffcc; text-decoration: none;">@yourtwitterhandle</a>
+        </p>
+        <p style="color: #f4f4f4; font-size: 1.1em; text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc; animation: neon 1.5s infinite alternate;">
+            LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" style="color: #00ffcc; text-decoration: none;">your-linkedin-profile</a>
+        </p>
+        <p style="color: #f4f4f4; font-size: 1.1em; text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc; animation: neon 1.5s infinite alternate;">
+            Blog: <a href="https://yourblogurl.com" target="_blank" style="color: #00ffcc; text-decoration: none;">yourblogurl.com</a>
+        </p>
+    </div>
+</div>
+
+<script>
+    // You can add JavaScript functionality here if needed
+    console.log("About Me page loaded.");
+</script>
+
+</body>
+</html>
